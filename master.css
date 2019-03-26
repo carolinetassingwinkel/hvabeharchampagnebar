@@ -1,0 +1,59 @@
+
+html, body {
+  margin: 0;
+}
+
+body {
+  font-size: 24px;
+  color: #CD8987;
+  position:relative;
+  background-color: #CD8987;
+
+}
+
+header {
+  background-color: orange;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3em;
+  font-family: 'Gochi Hand', cursive;
+  text-align: center;
+  color: #6b63d8;
+  text-shadow: 2px 2px 0 white,
+                -2px -2px 0 white,
+                -2px 2px 0 white,
+                2px -2px 0 white;
+}
+
+main {
+  text-align: center;
+  margin: 5em 0;
+
+}
+
+main {
+
+}
+aside {
+  position:absolute;
+  top:9em;
+}
+aside ul a{
+  color: black;
+  }
+
+ul{
+list-style: none;
+margin:0 1em;
+padding:0;
+
+}
+
+
+
+section {
+color: black;
+
+}
