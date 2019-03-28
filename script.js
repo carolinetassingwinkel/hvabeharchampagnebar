@@ -16,6 +16,7 @@ window.addEventListener("load", function () {
     .then(res => res.json())
     .then(data => {
       document.querySelector("#butikken").remove();
+      console.log(data);
       useinstadata(data);
     });
 });
