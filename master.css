@@ -36,6 +36,9 @@ main {
 main {
 
 }
+#instas {
+  width: 50vw;
+}
 aside {
   position:absolute;
   top:9em;
