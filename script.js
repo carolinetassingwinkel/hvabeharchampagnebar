@@ -10,14 +10,15 @@ function useinstadata(instas) {
       el.setAttribute("poster", item.images.standard_resolution.url);
       el.setAttribute("autoplay",true);
       el.setAttribute("muted", true);
-      el.setAttribute("loop", true)
+      el.setAttribute("loop", true);
+      el.setAttribute("crossorigin", "anonymous");
     }
     else {
       el = document.createElement("img");
       el.setAttribute("src", item.images.standard_resolution.url);
       el.setAttribute("width", item.images.standard_resolution.width);
       el.setAttribute("height", item.images.standard_resolution.height);
-      el.setAttribute("alt", item.caption.text);
+      el.setAttribute("alt", item.caption && item.caption.text);
     }
     pe.append(el);
   });
