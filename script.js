@@ -8,9 +8,9 @@ function useinstadata(instas) {
       el.setAttribute("width", item.videos.standard_resolution.width);
       el.setAttribute("height", item.videos.standard_resolution.height);
       el.setAttribute("poster", item.images.standard_resolution.url);
-      el.setAttribute("autoplay",true);
-      el.setAttribute("muted", true);
-      el.setAttribute("loop", true);
+      el.setAttribute("autoplay","autoplay");
+      el.setAttribute("muted", "muted");
+      el.setAttribute("loop", "loop");
       el.setAttribute("crossorigin", "anonymous");
     }
     else {
